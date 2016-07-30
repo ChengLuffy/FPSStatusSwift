@@ -13,6 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let fps = FPSStatus.sharedInstance
+        fps.open { (fpsValue) in
+            print(fpsValue)
+        }
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +29,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func btnDidClicked(sender: AnyObject) {
+        
+        FPSStatus.sharedInstance.close()
+        
+    }
 
 }
 

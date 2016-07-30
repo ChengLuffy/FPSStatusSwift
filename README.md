@@ -1,10 +1,6 @@
 # FPSStatusSwift
 a swift-version for [JPFPSStatus](https://github.com/joggerplus/JPFPSStatus)
 
-# 安装
-```
-pod 'FPSStatusSwift'
-```
 
 # 使用
 开启：
@@ -23,3 +19,5 @@ FPSStatus.sharedInstance.open { (fpsValue) in
 ```
 FPSStatus.sharedInstance.close()
 ```
+
+

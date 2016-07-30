@@ -95,4 +95,9 @@ class FPSStatus: NSObject {
         open()
     }
     
+    deinit {
+        displayLink?.paused = true
+        displayLink?.removeFromRunLoop(NSRunLoop.currentRunLoop(), forMode: NSRunLoopCommonModes)
+    }
+    
 }

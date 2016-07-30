@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FPSStatus"
-  s.version      = "0.2"
+  s.version      = "0.3"
   s.summary      = "show FPS-value on the status bar."
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   s.source_files  = "FPSStatusSwift/Classes/*.swift"
   # s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "FPSStatusSwift/FPSStatus.swift"
+  # s.public_header_files = "FPSStatusSwift/Classes/*.swift"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

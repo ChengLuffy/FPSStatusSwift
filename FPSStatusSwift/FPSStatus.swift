@@ -57,20 +57,36 @@ class FPSStatus: NSObject {
     func open() {
         let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         let window = appDelegate.window
-        for subView in window!.subviews {
-            if subView == fpsLabel {
-                print("have opened")
-                return
+        if window?.rootViewController?.isKindOfClass(UIViewController.self) == true {
+            for subView in (window?.rootViewController?.view.subviews)! {
+                if subView == fpsLabel {
+                    print("have opened")
+                    return
+                }
             }
+            
+            displayLink?.paused = false
+            window?.rootViewController?.view.addSubview(fpsLabel!)
+            window?.rootViewController?.view.bringSubviewToFront(fpsLabel!)
+            
+        } else {
+            for subView in window!.subviews {
+                if subView == fpsLabel {
+                    print("have opened")
+                    return
+                }
+            }
+            
+            displayLink?.paused = false
+            window!.addSubview(fpsLabel!)
+            window!.bringSubviewToFront(fpsLabel!)
         }
         
-        displayLink?.paused = false
-        window!.addSubview(fpsLabel!)
-        window!.bringSubviewToFront(fpsLabel!)
     }
     
     func close() {
         displayLink?.paused = true
+        handler = nil
         fpsLabel?.removeFromSuperview()
     }
     

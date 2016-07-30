@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "FPSStatusSwift"
+  s.name         = "FPSStatus"
   s.version      = "0.1"
   s.summary      = "show FPS-value on the status bar."
 
@@ -91,10 +91,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FPSStatusSwift/FPSStatus.swift"
+  s.source_files  = "FPSStatusSwift/Classes/*.swift"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "FPSStatusSwift/FPSStatus.swift"
+  # s.public_header_files = "FPSStatusSwift/FPSStatus.swift"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

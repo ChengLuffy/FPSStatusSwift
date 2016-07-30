@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FPSStatus"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "show FPS-value on the status bar."
 
   # This description is used to generate tags and improve search results.

@@ -8,8 +8,8 @@
 
 import UIKit
 
-class FPSStatus: NSObject {
-    static let sharedInstance = FPSStatus()
+public class FPSStatus: NSObject {
+    public static let sharedInstance = FPSStatus()
     var fpsLabel: UILabel?
     fileprivate var displayLink: CADisplayLink?
     fileprivate var lastTime: TimeInterval = 0
@@ -54,7 +54,7 @@ class FPSStatus: NSObject {
         }
     }
     
-    func open() {
+    public func open() {
         let appDelegate = UIApplication.shared.delegate
         let window = appDelegate!.window
         if window!!.rootViewController?.isKind(of: UIViewController.self) == true {
@@ -84,13 +84,13 @@ class FPSStatus: NSObject {
         
     }
     
-    func close() {
+    public func close() {
         displayLink?.isPaused = true
         handler = nil
         fpsLabel?.removeFromSuperview()
     }
     
-    func open(_ handler: ((_ fpsValue: NSInteger) -> ())?) {
+    public func open(_ handler: ((_ fpsValue: NSInteger) -> ())?) {
         self.handler = handler
         open()
     }

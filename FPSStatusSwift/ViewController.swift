@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         }
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
     }
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func btnDidClicked(sender: AnyObject) {
+    @IBAction func btnDidClicked(_ sender: AnyObject) {
         
         FPSStatus.sharedInstance.close()
         

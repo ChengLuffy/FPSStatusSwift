@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2A60AB111D4C3491004B3D40"
-               BuildableName = "FPSStatusSwift.app"
+               BlueprintIdentifier = "2AE4D7DC1DBA0800002005CB"
+               BuildableName = "FPSStatusSwift.framework"
                BlueprintName = "FPSStatusSwift"
                ReferencedContainer = "container:FPSStatusSwift.xcodeproj">
             </BuildableReference>
@@ -52,8 +52,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2A60AB111D4C3491004B3D40"
-            BuildableName = "FPSStatusSwift.app"
+            BlueprintIdentifier = "2AE4D7DC1DBA0800002005CB"
+            BuildableName = "FPSStatusSwift.framework"
             BlueprintName = "FPSStatusSwift"
             ReferencedContainer = "container:FPSStatusSwift.xcodeproj">
          </BuildableReference>
@@ -75,8 +75,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2A60AB111D4C3491004B3D40"
-            BuildableName = "FPSStatusSwift.app"
+            BlueprintIdentifier = "2AE4D7DC1DBA0800002005CB"
+            BuildableName = "FPSStatusSwift.framework"
             BlueprintName = "FPSStatusSwift"
             ReferencedContainer = "container:FPSStatusSwift.xcodeproj">
          </BuildableReference>
@@ -94,8 +94,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2A60AB111D4C3491004B3D40"
-            BuildableName = "FPSStatusSwift.app"
+            BlueprintIdentifier = "2AE4D7DC1DBA0800002005CB"
+            BuildableName = "FPSStatusSwift.framework"
             BlueprintName = "FPSStatusSwift"
             ReferencedContainer = "container:FPSStatusSwift.xcodeproj">
          </BuildableReference>

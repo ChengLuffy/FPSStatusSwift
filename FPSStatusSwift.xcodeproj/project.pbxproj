@@ -7,102 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A60AB161D4C3491004B3D40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60AB151D4C3491004B3D40 /* AppDelegate.swift */; };
-		2A60AB181D4C3491004B3D40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60AB171D4C3491004B3D40 /* ViewController.swift */; };
-		2A60AB1B1D4C3491004B3D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A60AB191D4C3491004B3D40 /* Main.storyboard */; };
-		2A60AB1D1D4C3491004B3D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A60AB1C1D4C3491004B3D40 /* Assets.xcassets */; };
-		2A60AB201D4C3491004B3D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A60AB1E1D4C3491004B3D40 /* LaunchScreen.storyboard */; };
-		2A60AB2B1D4C3492004B3D40 /* FPSStatusSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60AB2A1D4C3492004B3D40 /* FPSStatusSwiftTests.swift */; };
-		2A60AB361D4C3492004B3D40 /* FPSStatusSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60AB351D4C3492004B3D40 /* FPSStatusSwiftUITests.swift */; };
-		2AB8C8301D4C8AEA00B5B925 /* FPSStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8C82F1D4C8AEA00B5B925 /* FPSStatus.swift */; };
-		2AE4D6C01DB9FBAA002005CB /* FPSStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE4D6BE1DB9FBAA002005CB /* FPSStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AE4D6C31DB9FBAA002005CB /* FPSStatus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE4D6BC1DB9FBAA002005CB /* FPSStatus.framework */; };
-		2AE4D6C41DB9FBAA002005CB /* FPSStatus.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE4D6BC1DB9FBAA002005CB /* FPSStatus.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2AE4D6C91DB9FBDB002005CB /* FPSStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8C82F1D4C8AEA00B5B925 /* FPSStatus.swift */; };
+		2AE4D7E11DBA0800002005CB /* FPSStatusSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE4D7DF1DBA0800002005CB /* FPSStatusSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AE4D7E51DBA080C002005CB /* FPSStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8C82F1D4C8AEA00B5B925 /* FPSStatus.swift */; };
+		2AE4D7FC1DBA0834002005CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60AB151D4C3491004B3D40 /* AppDelegate.swift */; };
+		2AE4D7FD1DBA0834002005CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60AB171D4C3491004B3D40 /* ViewController.swift */; };
+		2AE4D7FE1DBA0857002005CB /* FPSStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8C82F1D4C8AEA00B5B925 /* FPSStatus.swift */; };
+		2AE4D7FF1DBA08C7002005CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A60AB191D4C3491004B3D40 /* Main.storyboard */; };
+		2AE4D8001DBA08C7002005CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A60AB1C1D4C3491004B3D40 /* Assets.xcassets */; };
+		2AE4D8011DBA08C7002005CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A60AB1E1D4C3491004B3D40 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2A60AB271D4C3492004B3D40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A60AB0A1D4C3491004B3D40 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2A60AB111D4C3491004B3D40;
-			remoteInfo = FPSStatusSwift;
-		};
-		2A60AB321D4C3492004B3D40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A60AB0A1D4C3491004B3D40 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2A60AB111D4C3491004B3D40;
-			remoteInfo = FPSStatusSwift;
-		};
-		2AE4D6C11DB9FBAA002005CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A60AB0A1D4C3491004B3D40 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2AE4D6BB1DB9FBAA002005CB;
-			remoteInfo = FPSStatus;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		2AE4D6C81DB9FBAA002005CB /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				2AE4D6C41DB9FBAA002005CB /* FPSStatus.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		2A60AB121D4C3491004B3D40 /* FPSStatusSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPSStatusSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A60AB151D4C3491004B3D40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A60AB171D4C3491004B3D40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A60AB1A1D4C3491004B3D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A60AB1C1D4C3491004B3D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A60AB1F1D4C3491004B3D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A60AB211D4C3491004B3D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A60AB261D4C3492004B3D40 /* FPSStatusSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FPSStatusSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A60AB2A1D4C3492004B3D40 /* FPSStatusSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSStatusSwiftTests.swift; sourceTree = "<group>"; };
-		2A60AB2C1D4C3492004B3D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A60AB311D4C3492004B3D40 /* FPSStatusSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FPSStatusSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A60AB351D4C3492004B3D40 /* FPSStatusSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSStatusSwiftUITests.swift; sourceTree = "<group>"; };
-		2A60AB371D4C3492004B3D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AB8C82F1D4C8AEA00B5B925 /* FPSStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPSStatus.swift; sourceTree = "<group>"; };
-		2AE4D6BC1DB9FBAA002005CB /* FPSStatus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FPSStatus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AE4D6BE1DB9FBAA002005CB /* FPSStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPSStatus.h; sourceTree = "<group>"; };
-		2AE4D6BF1DB9FBAA002005CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE4D7DD1DBA0800002005CB /* FPSStatusSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FPSStatusSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE4D7DF1DBA0800002005CB /* FPSStatusSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPSStatusSwift.h; sourceTree = "<group>"; };
+		2AE4D7E01DBA0800002005CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE4D7EA1DBA081E002005CB /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE4D7F81DBA081F002005CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A60AB0F1D4C3491004B3D40 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AE4D6C31DB9FBAA002005CB /* FPSStatus.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A60AB231D4C3492004B3D40 /* Frameworks */ = {
+		2AE4D7D91DBA0800002005CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A60AB2E1D4C3492004B3D40 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2AE4D6B81DB9FBAA002005CB /* Frameworks */ = {
+		2AE4D7E71DBA081E002005CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -116,9 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				2A60AB141D4C3491004B3D40 /* FPSStatusSwift */,
-				2A60AB291D4C3492004B3D40 /* FPSStatusSwiftTests */,
-				2A60AB341D4C3492004B3D40 /* FPSStatusSwiftUITests */,
-				2AE4D6BD1DB9FBAA002005CB /* FPSStatus */,
+				2AE4D7DE1DBA0800002005CB /* FPSStatusSwift */,
+				2AE4D7EB1DBA081F002005CB /* Sample */,
 				2A60AB131D4C3491004B3D40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,10 +63,8 @@
 		2A60AB131D4C3491004B3D40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A60AB121D4C3491004B3D40 /* FPSStatusSwift.app */,
-				2A60AB261D4C3492004B3D40 /* FPSStatusSwiftTests.xctest */,
-				2A60AB311D4C3492004B3D40 /* FPSStatusSwiftUITests.xctest */,
-				2AE4D6BC1DB9FBAA002005CB /* FPSStatus.framework */,
+				2AE4D7DD1DBA0800002005CB /* FPSStatusSwift.framework */,
+				2AE4D7EA1DBA081E002005CB /* Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,24 +83,6 @@
 			path = FPSStatusSwift;
 			sourceTree = "<group>";
 		};
-		2A60AB291D4C3492004B3D40 /* FPSStatusSwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				2A60AB2A1D4C3492004B3D40 /* FPSStatusSwiftTests.swift */,
-				2A60AB2C1D4C3492004B3D40 /* Info.plist */,
-			);
-			path = FPSStatusSwiftTests;
-			sourceTree = "<group>";
-		};
-		2A60AB341D4C3492004B3D40 /* FPSStatusSwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2A60AB351D4C3492004B3D40 /* FPSStatusSwiftUITests.swift */,
-				2A60AB371D4C3492004B3D40 /* Info.plist */,
-			);
-			path = FPSStatusSwiftUITests;
-			sourceTree = "<group>";
-		};
 		2AB8C82E1D4C8AEA00B5B925 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,101 +91,71 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		2AE4D6BD1DB9FBAA002005CB /* FPSStatus */ = {
+		2AE4D7DE1DBA0800002005CB /* FPSStatusSwift */ = {
 			isa = PBXGroup;
 			children = (
-				2AE4D6BE1DB9FBAA002005CB /* FPSStatus.h */,
-				2AE4D6BF1DB9FBAA002005CB /* Info.plist */,
+				2AE4D7DF1DBA0800002005CB /* FPSStatusSwift.h */,
+				2AE4D7E01DBA0800002005CB /* Info.plist */,
 			);
-			path = FPSStatus;
+			path = FPSStatusSwift;
+			sourceTree = "<group>";
+		};
+		2AE4D7EB1DBA081F002005CB /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				2AE4D7F81DBA081F002005CB /* Info.plist */,
+			);
+			path = Sample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2AE4D6B91DB9FBAA002005CB /* Headers */ = {
+		2AE4D7DA1DBA0800002005CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE4D6C01DB9FBAA002005CB /* FPSStatus.h in Headers */,
+				2AE4D7E11DBA0800002005CB /* FPSStatusSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2A60AB111D4C3491004B3D40 /* FPSStatusSwift */ = {
+		2AE4D7DC1DBA0800002005CB /* FPSStatusSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A60AB3A1D4C3492004B3D40 /* Build configuration list for PBXNativeTarget "FPSStatusSwift" */;
+			buildConfigurationList = 2AE4D7E21DBA0800002005CB /* Build configuration list for PBXNativeTarget "FPSStatusSwift" */;
 			buildPhases = (
-				2A60AB0E1D4C3491004B3D40 /* Sources */,
-				2A60AB0F1D4C3491004B3D40 /* Frameworks */,
-				2A60AB101D4C3491004B3D40 /* Resources */,
-				2AE4D6C81DB9FBAA002005CB /* Embed Frameworks */,
+				2AE4D7D81DBA0800002005CB /* Sources */,
+				2AE4D7D91DBA0800002005CB /* Frameworks */,
+				2AE4D7DA1DBA0800002005CB /* Headers */,
+				2AE4D7DB1DBA0800002005CB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2AE4D6C21DB9FBAA002005CB /* PBXTargetDependency */,
 			);
 			name = FPSStatusSwift;
 			productName = FPSStatusSwift;
-			productReference = 2A60AB121D4C3491004B3D40 /* FPSStatusSwift.app */;
-			productType = "com.apple.product-type.application";
-		};
-		2A60AB251D4C3492004B3D40 /* FPSStatusSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2A60AB3D1D4C3492004B3D40 /* Build configuration list for PBXNativeTarget "FPSStatusSwiftTests" */;
-			buildPhases = (
-				2A60AB221D4C3492004B3D40 /* Sources */,
-				2A60AB231D4C3492004B3D40 /* Frameworks */,
-				2A60AB241D4C3492004B3D40 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2A60AB281D4C3492004B3D40 /* PBXTargetDependency */,
-			);
-			name = FPSStatusSwiftTests;
-			productName = FPSStatusSwiftTests;
-			productReference = 2A60AB261D4C3492004B3D40 /* FPSStatusSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2A60AB301D4C3492004B3D40 /* FPSStatusSwiftUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2A60AB401D4C3492004B3D40 /* Build configuration list for PBXNativeTarget "FPSStatusSwiftUITests" */;
-			buildPhases = (
-				2A60AB2D1D4C3492004B3D40 /* Sources */,
-				2A60AB2E1D4C3492004B3D40 /* Frameworks */,
-				2A60AB2F1D4C3492004B3D40 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2A60AB331D4C3492004B3D40 /* PBXTargetDependency */,
-			);
-			name = FPSStatusSwiftUITests;
-			productName = FPSStatusSwiftUITests;
-			productReference = 2A60AB311D4C3492004B3D40 /* FPSStatusSwiftUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		2AE4D6BB1DB9FBAA002005CB /* FPSStatus */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2AE4D6C71DB9FBAA002005CB /* Build configuration list for PBXNativeTarget "FPSStatus" */;
-			buildPhases = (
-				2AE4D6B71DB9FBAA002005CB /* Sources */,
-				2AE4D6B81DB9FBAA002005CB /* Frameworks */,
-				2AE4D6B91DB9FBAA002005CB /* Headers */,
-				2AE4D6BA1DB9FBAA002005CB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FPSStatus;
-			productName = FPSStatus;
-			productReference = 2AE4D6BC1DB9FBAA002005CB /* FPSStatus.framework */;
+			productReference = 2AE4D7DD1DBA0800002005CB /* FPSStatusSwift.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		2AE4D7E91DBA081E002005CB /* Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE4D7F91DBA081F002005CB /* Build configuration list for PBXNativeTarget "Sample" */;
+			buildPhases = (
+				2AE4D7E61DBA081E002005CB /* Sources */,
+				2AE4D7E71DBA081E002005CB /* Frameworks */,
+				2AE4D7E81DBA081E002005CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sample;
+			productName = Sample;
+			productReference = 2AE4D7EA1DBA081E002005CB /* Sample.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -276,28 +163,15 @@
 		2A60AB0A1D4C3491004B3D40 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "成璐飞";
 				TargetAttributes = {
-					2A60AB111D4C3491004B3D40 = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = N7XNKCS3XY;
-						LastSwiftMigration = 0800;
+					2AE4D7DC1DBA0800002005CB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
 					};
-					2A60AB251D4C3492004B3D40 = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = N7XNKCS3XY;
-						LastSwiftMigration = 0800;
-						TestTargetID = 2A60AB111D4C3491004B3D40;
-					};
-					2A60AB301D4C3492004B3D40 = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = N7XNKCS3XY;
-						LastSwiftMigration = 0800;
-						TestTargetID = 2A60AB111D4C3491004B3D40;
-					};
-					2AE4D6BB1DB9FBAA002005CB = {
+					2AE4D7E91DBA081E002005CB = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -316,102 +190,52 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A60AB111D4C3491004B3D40 /* FPSStatusSwift */,
-				2A60AB251D4C3492004B3D40 /* FPSStatusSwiftTests */,
-				2A60AB301D4C3492004B3D40 /* FPSStatusSwiftUITests */,
-				2AE4D6BB1DB9FBAA002005CB /* FPSStatus */,
+				2AE4D7DC1DBA0800002005CB /* FPSStatusSwift */,
+				2AE4D7E91DBA081E002005CB /* Sample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2A60AB101D4C3491004B3D40 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A60AB201D4C3491004B3D40 /* LaunchScreen.storyboard in Resources */,
-				2A60AB1D1D4C3491004B3D40 /* Assets.xcassets in Resources */,
-				2A60AB1B1D4C3491004B3D40 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A60AB241D4C3492004B3D40 /* Resources */ = {
+		2AE4D7DB1DBA0800002005CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A60AB2F1D4C3492004B3D40 /* Resources */ = {
+		2AE4D7E81DBA081E002005CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2AE4D6BA1DB9FBAA002005CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2AE4D7FF1DBA08C7002005CB /* Main.storyboard in Resources */,
+				2AE4D8001DBA08C7002005CB /* Assets.xcassets in Resources */,
+				2AE4D8011DBA08C7002005CB /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A60AB0E1D4C3491004B3D40 /* Sources */ = {
+		2AE4D7D81DBA0800002005CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A60AB181D4C3491004B3D40 /* ViewController.swift in Sources */,
-				2A60AB161D4C3491004B3D40 /* AppDelegate.swift in Sources */,
-				2AB8C8301D4C8AEA00B5B925 /* FPSStatus.swift in Sources */,
+				2AE4D7E51DBA080C002005CB /* FPSStatus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A60AB221D4C3492004B3D40 /* Sources */ = {
+		2AE4D7E61DBA081E002005CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A60AB2B1D4C3492004B3D40 /* FPSStatusSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A60AB2D1D4C3492004B3D40 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A60AB361D4C3492004B3D40 /* FPSStatusSwiftUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2AE4D6B71DB9FBAA002005CB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AE4D6C91DB9FBDB002005CB /* FPSStatus.swift in Sources */,
+				2AE4D7FE1DBA0857002005CB /* FPSStatus.swift in Sources */,
+				2AE4D7FC1DBA0834002005CB /* AppDelegate.swift in Sources */,
+				2AE4D7FD1DBA0834002005CB /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2A60AB281D4C3492004B3D40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2A60AB111D4C3491004B3D40 /* FPSStatusSwift */;
-			targetProxy = 2A60AB271D4C3492004B3D40 /* PBXContainerItemProxy */;
-		};
-		2A60AB331D4C3492004B3D40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2A60AB111D4C3491004B3D40 /* FPSStatusSwift */;
-			targetProxy = 2A60AB321D4C3492004B3D40 /* PBXContainerItemProxy */;
-		};
-		2AE4D6C21DB9FBAA002005CB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2AE4D6BB1DB9FBAA002005CB /* FPSStatus */;
-			targetProxy = 2AE4D6C11DB9FBAA002005CB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2A60AB191D4C3491004B3D40 /* Main.storyboard */ = {
@@ -523,83 +347,7 @@
 			};
 			name = Release;
 		};
-		2A60AB3B1D4C3492004B3D40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FPSStatusSwift/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChengLuffy.FPSStatusSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		2A60AB3C1D4C3492004B3D40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FPSStatusSwift/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChengLuffy.FPSStatusSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		2A60AB3E1D4C3492004B3D40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = FPSStatusSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChengLuffy.FPSStatusSwiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FPSStatusSwift.app/FPSStatusSwift";
-			};
-			name = Debug;
-		};
-		2A60AB3F1D4C3492004B3D40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = FPSStatusSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChengLuffy.FPSStatusSwiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FPSStatusSwift.app/FPSStatusSwift";
-			};
-			name = Release;
-		};
-		2A60AB411D4C3492004B3D40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = FPSStatusSwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChengLuffy.FPSStatusSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = FPSStatusSwift;
-			};
-			name = Debug;
-		};
-		2A60AB421D4C3492004B3D40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = FPSStatusSwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChengLuffy.FPSStatusSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = FPSStatusSwift;
-			};
-			name = Release;
-		};
-		2AE4D6C51DB9FBAA002005CB /* Debug */ = {
+		2AE4D7E31DBA0800002005CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -610,11 +358,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FPSStatus/Info.plist;
+				INFOPLIST_FILE = FPSStatusSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChengLuffy.FPSStatus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChengLuffy.FPSStatusSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -624,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		2AE4D6C61DB9FBAA002005CB /* Release */ = {
+		2AE4D7E41DBA0800002005CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -635,16 +383,47 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FPSStatus/Info.plist;
+				INFOPLIST_FILE = FPSStatusSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChengLuffy.FPSStatus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChengLuffy.FPSStatusSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2AE4D7FA1DBA081F002005CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChengLuffy.Sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2AE4D7FB1DBA081F002005CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChengLuffy.Sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -660,38 +439,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A60AB3A1D4C3492004B3D40 /* Build configuration list for PBXNativeTarget "FPSStatusSwift" */ = {
+		2AE4D7E21DBA0800002005CB /* Build configuration list for PBXNativeTarget "FPSStatusSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A60AB3B1D4C3492004B3D40 /* Debug */,
-				2A60AB3C1D4C3492004B3D40 /* Release */,
+				2AE4D7E31DBA0800002005CB /* Debug */,
+				2AE4D7E41DBA0800002005CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		2A60AB3D1D4C3492004B3D40 /* Build configuration list for PBXNativeTarget "FPSStatusSwiftTests" */ = {
+		2AE4D7F91DBA081F002005CB /* Build configuration list for PBXNativeTarget "Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A60AB3E1D4C3492004B3D40 /* Debug */,
-				2A60AB3F1D4C3492004B3D40 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2A60AB401D4C3492004B3D40 /* Build configuration list for PBXNativeTarget "FPSStatusSwiftUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2A60AB411D4C3492004B3D40 /* Debug */,
-				2A60AB421D4C3492004B3D40 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2AE4D6C71DB9FBAA002005CB /* Build configuration list for PBXNativeTarget "FPSStatus" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2AE4D6C51DB9FBAA002005CB /* Debug */,
-				2AE4D6C61DB9FBAA002005CB /* Release */,
+				2AE4D7FA1DBA081F002005CB /* Debug */,
+				2AE4D7FB1DBA081F002005CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -4,15 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FPSStatusSwift 2.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 		<key>FPSStatusSwift.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Sample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -33,6 +33,16 @@
 			<true/>
 		</dict>
 		<key>2AE4D6BB1DB9FBAA002005CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2AE4D7DC1DBA0800002005CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2AE4D7E91DBA081E002005CB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

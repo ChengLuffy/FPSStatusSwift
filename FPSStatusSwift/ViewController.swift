@@ -31,9 +31,15 @@ class ViewController: UIViewController {
 
     @IBAction func btnDidClicked(_ sender: AnyObject) {
         
-        FPSStatus.sharedInstance.close()
+        let vc = UIViewController()
+        vc.view.backgroundColor = UIColor.white
+        navigationController?.pushViewController(vc, animated: true)
         
     }
 
+    @IBAction func closeBtnDidClicked(_ sender: Any) {
+        FPSStatus.sharedInstance.close()
+    }
+    
 }
 

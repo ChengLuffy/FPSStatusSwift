@@ -30,13 +30,24 @@ public class FPSStatus: NSObject {
         displayLink?.isPaused = true
         displayLink?.add(to: RunLoop.current, forMode: RunLoopMode.commonModes)
         
+        let app = UIApplication.shared
+        let subviews = ((app.value(forKey: "statusBar") as! UIView).value(forKey: "foregroundView") as! UIView).subviews
         
-        fpsLabel = UILabel(frame: CGRect(x: (UIScreen.main.bounds.size.width - 50) / 2 + 50, y: 0, width: 50, height: 20))
+        var timeLabelFrame = CGRect()
+        for subview in subviews {
+            if subview.isKind(of: NSClassFromString("UIStatusBarTimeItemView")!) {
+                timeLabelFrame = subview.frame
+                break
+            }
+            
+        }
+        
+//        fpsLabel = UILabel(frame: CGRect(x: (UIScreen.main.bounds.size.width - 50) / 2 + 50, y: 0, width: 50, height: 20))
+        fpsLabel = UILabel(frame: CGRect(x: timeLabelFrame.origin.x+timeLabelFrame.size.width+5, y: 0, width: 20, height: 20))
         fpsLabel?.font = UIFont.boldSystemFont(ofSize: 12)
         fpsLabel?.textColor = UIColor(red: 0.33, green: 0.84, blue: 0.43, alpha: 1.00)
         fpsLabel?.backgroundColor = UIColor.clear
         fpsLabel?.textAlignment = .center
-        
     }
     
     @objc fileprivate func displayLinkTick(_ displayLink: CADisplayLink) {
@@ -55,32 +66,11 @@ public class FPSStatus: NSObject {
     }
     
     public func open() {
-        let appDelegate = UIApplication.shared.delegate
-        let window = appDelegate!.window
-        if window!!.rootViewController?.isKind(of: UIViewController.self) == true {
-            for subView in (window?!.rootViewController?.view.subviews)! {
-                if subView == fpsLabel {
-                    print("have opened")
-                    return
-                }
-            }
-            
-            displayLink?.isPaused = false
-            window?!.rootViewController?.view.addSubview(fpsLabel!)
-            window?!.rootViewController?.view.bringSubview(toFront: fpsLabel!)
-            
-        } else {
-            for subView in window!!.subviews {
-                if subView == fpsLabel {
-                    print("have opened")
-                    return
-                }
-            }
-            
-            displayLink?.isPaused = false
-            window!!.addSubview(fpsLabel!)
-            window!!.bringSubview(toFront: fpsLabel!)
-        }
+        let app = UIApplication.shared
+        let statusView = (app.value(forKey: "statusBar") as! UIView).value(forKey: "foregroundView") as! UIView
+        statusView.addSubview(fpsLabel!)
+        displayLink?.isPaused = false
+        print("have opened")
         
     }
     

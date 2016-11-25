@@ -3,14 +3,14 @@ a swift-version for [JPFPSStatus](https://github.com/joggerplus/JPFPSStatus)
 
 
 # 使用
-
-### CocoaPods:
+---
+ CocoaPods:
 
 ```
 pod 'FPSStatus', '~> 0.0.2'
 ```
 
-### Carthage:
+Carthage:
 
 ```
 github "ChengLuffy/FPSStatusSwift"
